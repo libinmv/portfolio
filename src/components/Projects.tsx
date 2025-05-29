@@ -3,6 +3,22 @@ import { GitHub, Launch } from '@mui/icons-material';
 
 const projects = [
   {
+    title: 'Self Hosted Portfolio Website',
+    description: 'Created a self-hosted portfolio website (React + TypeScript) using Vite. The website is hosted on my personal server and ingress is managed using a cloudflare tunnel. ps: You are currently viewing this website.',
+    technologies: ['React', 'TypeScript', 'Vite', 'Cloudflare Tunnel', 'DevOps'],
+    github: 'https://github.com/libinmv/portfolio',
+    demo: 'https://portfolio.libinmv.in',
+    image: 'https://user-images.githubusercontent.com/45159366/152699307-1c4ebfcd-a2b0-456c-9a84-01ac255e3782.png',
+  },
+  {
+    title: 'Resume as a static website',
+    description: 'Set up a personal server using Ubuntu Server. The server is used to host my portfolio website, a Nextcloud instance, and a Pi-hole instance. The server is managed using Ansible and Docker.',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
+    github: 'https://github.com/libinmv/resume',
+    demo: 'https://resume.libinmv.in',
+    image: 'https://cdn.cssauthor.com/wp-content/uploads/2020/02/Editable-Resume-Template.jpg?strip=all&lossy=1&ssl=1',
+  },
+  {
     title: 'Lunch Booking Service',
     description: 'Implemented a lunch booking service for employees of entri.app. Dockerised application implemented using FastAPI and Slack API. Redis Database is used for CRUD operations. Consists of a QR Code generator using Python and a QR Code Scanner using Javascript.',
     technologies: ['FastAPI', 'Redis', 'Docker', 'Slack API', 'Python', 'Javascript'],
