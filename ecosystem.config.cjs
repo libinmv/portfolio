@@ -1,7 +1,8 @@
-export default {
+module.exports = {
   apps: [{
     name: 'portfolio',
-    script: './start-server.sh',
+    script: 'npm',
+    args: 'run dev',
     watch: true,
     autorestart: true,
     exp_backoff_restart_delay: 100,
@@ -19,4 +20,4 @@ export default {
       VITE_PORT: 5173
     }
   }]
-} 
+}
