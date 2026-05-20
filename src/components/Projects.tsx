@@ -4,7 +4,7 @@ import { GitHub, Launch } from '@mui/icons-material';
 const projects = [
   {
     title: 'Self Hosted Portfolio Website',
-    description: 'Created a self-hosted portfolio website (React + TypeScript) using Vite. The website is hosted on my personal server and ingress is managed using a cloudflare tunnel. ps: You are currently viewing this website.',
+    description: 'Created a self-hosted portfolio website (React + TypeScript) using Vite. Initially deployed through a personal server through a cloudflare tunnel, but later changed to cloudflare pages',
     technologies: ['React', 'TypeScript', 'Vite', 'Cloudflare Tunnel', 'DevOps'],
     github: 'https://github.com/libinmv/portfolio',
     demo: 'https://portfolio.libinmv.in',
