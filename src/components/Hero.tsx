@@ -68,11 +68,11 @@ const Hero = () => {
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Hi, I'm{' '}
               <span className="bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent">
-                Libin Mathew
+                Libin Mathew Varghese
               </span>
             </h1>
             <h2 className="text-2xl md:text-3xl text-secondary-600 dark:text-secondary-300 mb-8">
-              Software Engineer (Backend)
+              Software Engineer
             </h2>
           </motion.div>
 
