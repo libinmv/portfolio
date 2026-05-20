@@ -5,15 +5,15 @@ const projects = [
   {
     title: 'Self Hosted Portfolio Website',
     description: 'Created a self-hosted portfolio website (React + TypeScript) using Vite. Initially deployed through a personal server through a cloudflare tunnel, but later changed to cloudflare pages',
-    technologies: ['React', 'TypeScript', 'Vite', 'Cloudflare Tunnel', 'DevOps'],
+    technologies: ['React', 'TypeScript', 'Vite', 'Cloudflare Tunnel', 'DevOps', 'CDN'],
     github: 'https://github.com/libinmv/portfolio',
     demo: 'https://portfolio.libinmv.in',
     image: 'https://user-images.githubusercontent.com/45159366/152699307-1c4ebfcd-a2b0-456c-9a84-01ac255e3782.png',
   },
   {
     title: 'Resume as a static website',
-    description: 'Set up a personal server using Ubuntu Server. The server is used to host my portfolio website, a Nextcloud instance, and a Pi-hole instance. The server is managed using Ansible and Docker.',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
+    description: 'Created a resume website using bootstrap and javascript. Hosted through vercel',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'CDN'],
     github: 'https://github.com/libinmv/resume',
     demo: 'https://resume.libinmv.in',
     image: 'https://cdn.cssauthor.com/wp-content/uploads/2020/02/Editable-Resume-Template.jpg?strip=all&lossy=1&ssl=1',
